@@ -1,5 +1,7 @@
 # Performance-Comparison-of-Slam-Algorithms
-This repository houses the complete research and analysis of various SLAM algorithms, the datasets used, and the results. The primary aim is to offer an exhaustive comparative study of SLAM algorithms in different environments, focusing on two main aspects - the execution speeds and the accuracy of the algorithms.
+This repository houses the complete research and analysis of various SLAM algorithms, the datasets used, and the results. The primary aim is to offer an exhaustive comparative study of SLAM algorithms in different environments, focusing on two main aspects - the execution speeds and the accuracy of the algorithms.  
+
+![slamev](https://github.com/dorukarslan/Performance-Comparison-of-Slam-Algorithms/assets/79598598/5884827b-4c8c-4a1f-a3fc-85e4bf2c0c99)
 
 ## Abstract
 
@@ -22,7 +24,9 @@ Two primary approaches to SLAM algorithms are LIDAR and VSLAM. Both approaches h
 The algorithms used in this study are:
 
 • ORB-SLAM  
-• Direct Sparse Odometry (DSO)  
+• Direct Sparse Odometry with Loop Closure(LDSO)  
+
+![ldsoand](https://github.com/dorukarslan/Performance-Comparison-of-Slam-Algorithms/assets/79598598/1507d27a-365e-4865-a5b7-e14da65f285b)
 
 # Acknowledgments
 
@@ -34,4 +38,10 @@ The reliability of SLAM algorithm output depends on the environment in which the
 To facilitate the comparison, we used the EuRoC MAV dataset, which contains sequences of stereo images, synchronized IMU measurements, and ground truth poses for each sequence. We created a repository that splits the images into frames and combines them with the sensor data using the Androsensor application to make the dataset easier to use. You can find the dataset creation repository at 
 [dorukarslan/EuRoC_Generator](https://github.com/dorukarslan/EuRoC_Generator)
 
+# Sample Comparison
+
+![ldsoERG](https://github.com/dorukarslan/Performance-Comparison-of-Slam-Algorithms/assets/79598598/3fc5a169-0c83-47a9-b4b1-e746288565b6)
+
+
+![slamERG](https://github.com/dorukarslan/Performance-Comparison-of-Slam-Algorithms/assets/79598598/fb28704b-721e-4ebe-aadf-5012cfab474a)
 
